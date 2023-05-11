@@ -11,12 +11,12 @@
 
  The site consists of five sections:
 
-About: This section presents a brief introduction to my professional profile and career objectives.
-Experience: This section provides a summary of my work experience, including past companies and projects I have contributed to as a developer and designer.
-Projects: In this section, you can find a selection of my recent projects, along with links to their source code repositories on Github.
-Services: This section showcases the different services I offer, with detailed information about my skills and expertise.
-Skills: This section highlights my technical competencies in areas such as front-end development, software engineering, and design.
-Contact: This section provides my contact information, including email, and social media profiles, as well as a contact form for inquiries.
+About: This section presents a brief introduction to my professional profile and career objectives. <br/>
+Experience: This section provides a summary of my work experience, including past companies and projects I have contributed to as a developer and designer. <br/>
+Projects: In this section, you can find a selection of my recent projects, along with links to their source code repositories on Github. <br/>
+Services: This section showcases the different services I offer, with detailed information about my skills and expertise. <br/>
+Skills: This section highlights my technical competencies in areas such as front-end development, software engineering, and design. <br/>
+Contact: This section provides my contact information, including email, and social media profiles, as well as a contact form for inquiries. <br/>
 
  ---
 
@@ -38,9 +38,9 @@ Contact: This section provides my contact information, including email, and soci
   <tr>
     <td align="center">
       <a href="https://github.com/Bilal3940">
-        <img src="https://avatars.githubusercontent.com/u/85834102?v=4" width="100px;" alt="Prakash GitHub"/><br>
+        <img src="[https://avatars.githubusercontent.com/u/85834102?v=4](https://avatars.githubusercontent.com/u/109686186?v=4)" width="100px;" alt="Bilal Javaid"/><br>
         <sub>
-          <b>Prakash Ravichandran</b>
+          <b>Bilal Javaid</b>
         </sub>
       </a>
     </td>
