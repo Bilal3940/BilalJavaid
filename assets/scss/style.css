@@ -46,6 +46,22 @@ img {
   height: auto;
   display: block;
 }
+.rounded-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.rounded-image--small {
+  max-width: 150px;
+}
+.rounded-image--medium {
+  max-width: 250px;
+
+}
+.rounded-image--large {
+  max-width: 400px;
+}
+
 
 p,
 h1,
