@@ -116,7 +116,7 @@ header {
   left: 0;
 }
 
-header .larguraMaxContainer nav {
+header .large-container nav {
   padding: 0px 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -131,34 +131,34 @@ header .larguraMaxContainer nav {
 }
 
 @media screen and (max-width: 1024px) {
-  header .larguraMaxContainer nav {
+  header .large-container nav {
     padding: 0px 25px;
   }
 }
 
-header .larguraMaxContainer nav img {
+header .large-container nav img {
   width: 150px;
 }
 
-header .larguraMaxContainer nav .nav-list {
+header .large-container nav .nav-list {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-header .larguraMaxContainer nav .nav-list li {
+header .large-container nav .nav-list li {
   margin-left: 50px;
 }
 
-header .larguraMaxContainer nav .nav-list li a {
+header .large-container nav .nav-list li a {
   color: #c9c9c9;
   font-size: 2rem;
   position: relative;
   font-family: "Circular Std Book";
 }
 
-header .larguraMaxContainer nav .nav-list li a::after {
+header .large-container nav .nav-list li a::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -177,14 +177,14 @@ header .larguraMaxContainer nav .nav-list li a::after {
   transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1), -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
-header .larguraMaxContainer nav .nav-list li a:hover::after {
+header .large-container nav .nav-list li a:hover::after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
   -webkit-transform-origin: bottom left;
           transform-origin: bottom left;
 }
 
-header .larguraMaxContainer nav .nav-list li a:hover {
+header .large-container nav .nav-list li a:hover {
   color: #fefbfb;
 }
 
@@ -268,11 +268,11 @@ header .larguraMaxContainer nav .nav-list li a:hover {
     padding-top: 100px;
     visibility: hidden;
   }
-  header .larguraMaxContainer nav .nav-list li {
+  header .large-container nav .nav-list li {
     opacity: 0;
     margin: 0px 0px 50px 0px;
   }
-  header .larguraMaxContainer nav .nav-list li a {
+  header .large-container nav .nav-list li a {
     font-size: 2.4rem;
   }
   .mobile-menu {
@@ -309,23 +309,23 @@ header .larguraMaxContainer nav .nav-list li a:hover {
   }
 }
 
-.larguraMaxContainer {
+.large-container {
   max-width: 1140px;
   margin: 0 auto;
 }
 
-main #apresentacaoPortfolio {
+main #top-text {
   background-color: #131219;
   position: relative;
 }
 
 @media screen and (max-width: 1024px) {
-  main #apresentacaoPortfolio {
+  main #top-text {
     padding: 0px 20px;
   }
 }
 
-main #apresentacaoPortfolio .larguraMaxContainer {
+main #top-text .large-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -338,7 +338,7 @@ main #apresentacaoPortfolio .larguraMaxContainer {
   padding: 0px 50px;
 }
 
-main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoTexto {
+main #top-text .large-container #apresentacaoTexto {
   width: 60%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -347,7 +347,7 @@ main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoTexto {
 }
 
 @media screen and (max-width: 1024px) {
-  main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoTexto {
+  main #top-text .large-container #apresentacaoTexto {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -364,22 +364,22 @@ main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoTexto {
   }
 }
 
-main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoTexto h2 {
+main #top-text .large-container #apresentacaoTexto h2 {
   color: #fefbfb;
   font-size: 2.4rem;
   font-weight: 500;
   font-family: "Circular Std Book";
 }
 
-main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoTexto h2 #nome {
+main #top-text .large-container #apresentacaoTexto h2 #nome {
   font-size: 5.4rem;
 }
 
-main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoTexto h2 .maquina-escrever {
+main #top-text .large-container #apresentacaoTexto h2 .maquina-escrever {
   font-family: "Circular Std Book";
 }
 
-main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoTexto a {
+main #top-text .large-container #apresentacaoTexto a {
   background: linear-gradient(225deg, rgba(102, 16, 242, 0.3) 0%, rgba(102, 16, 242, 0) 100%);
   color: #fefbfb;
   -webkit-backdrop-filter: blur(10px);
@@ -405,25 +405,25 @@ main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoTexto a {
   font-family: "Circular Std Book";
 }
 
-main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoTexto a:hover {
+main #top-text .large-container #apresentacaoTexto a:hover {
   padding: 15px 45px;
   cursor: pointer;
   max-width: 280px;
   background: linear-gradient(225deg, rgba(102, 16, 242, 0.6) 0%, rgba(102, 16, 242, 0) 100%);
 }
 
-main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoFoto {
+main #top-text .large-container #apresentacaoFoto {
   width: 40%;
   height: 100vh;
 }
 
 @media screen and (max-width: 1024px) {
-  main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoFoto {
+  main #top-text .large-container #apresentacaoFoto {
     display: none;
   }
 }
 
-main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoFoto #fundo {
+main #top-text .large-container #apresentacaoFoto #fundo {
   width: 100%;
   max-width: 600px;
   position: absolute;
@@ -432,12 +432,12 @@ main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoFoto #fundo {
 }
 
 @media screen and (max-width: 1024px) {
-  main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoFoto #fundo {
+  main #top-text .large-container #apresentacaoFoto #fundo {
     display: none;
   }
 }
 
-main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoFoto .object {
+main #top-text .large-container #apresentacaoFoto .object {
   -webkit-animation: MoveUpDown 2s linear infinite;
           animation: MoveUpDown 2s linear infinite;
   position: absolute;
@@ -468,7 +468,7 @@ main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoFoto .object {
   }
 }
 
-main #apresentacaoPortfolio .mouse {
+main #top-text .mouse {
   width: 70px;
   position: absolute;
   bottom: 30px;
@@ -481,17 +481,17 @@ main #whoiam {
   background-color: #17161d;
 }
 
-main #whoiam .larguraMaxContainer {
+main #whoiam .large-container {
   padding: 100px 50px;
 }
 
 @media screen and (max-width: 1024px) {
-  main #whoiam .larguraMaxContainer {
+  main #whoiam .large-container {
     padding: 50px 20px;
   }
 }
 
-main #whoiam .larguraMaxContainer #whoiamMim {
+main #whoiam .large-container #whoiamMim {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -503,7 +503,7 @@ main #whoiam .larguraMaxContainer #whoiamMim {
           justify-content: space-between;
 }
 
-main #whoiam .larguraMaxContainer #whoiamFoto {
+main #whoiam .large-container #whoiamFoto {
   width: 50%;
   padding-right: 100px;
   display: -webkit-box;
@@ -520,16 +520,16 @@ main #whoiam .larguraMaxContainer #whoiamFoto {
   transition: 1s all ease;
 }
 
-main #whoiam .larguraMaxContainer #whoiamFoto #iuricode {
+main #whoiam .large-container #whoiamFoto #iuricode {
   width: 400px;
 }
 
-main #whoiam .larguraMaxContainer #whoiamFoto:hover {
+main #whoiam .large-container #whoiamFoto:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-main #whoiam .larguraMaxContainer #whoiamFoto div {
+main #whoiam .large-container #whoiamFoto div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -541,11 +541,11 @@ main #whoiam .larguraMaxContainer #whoiamFoto div {
           justify-content: center;
 }
 
-main #whoiam .larguraMaxContainer #whoiamFoto div img {
+main #whoiam .large-container #whoiamFoto div img {
   width: 45px;
 }
 
-main #whoiam .larguraMaxContainer #whoiamFoto #figura1 {
+main #whoiam .large-container #whoiamFoto #figura1 {
   position: absolute;
   top: 40px;
   right: 430px;
@@ -555,7 +555,7 @@ main #whoiam .larguraMaxContainer #whoiamFoto #figura1 {
   height: 75px;
 }
 
-main #whoiam .larguraMaxContainer #whoiamFoto #figura2 {
+main #whoiam .large-container #whoiamFoto #figura2 {
   position: absolute;
   top: 100px;
   right: 150px;
@@ -565,7 +565,7 @@ main #whoiam .larguraMaxContainer #whoiamFoto #figura2 {
   height: 75px;
 }
 
-main #whoiam .larguraMaxContainer #whoiamFoto #figura3 {
+main #whoiam .large-container #whoiamFoto #figura3 {
   position: absolute;
   top: 250px;
   right: 450px;
@@ -575,17 +575,17 @@ main #whoiam .larguraMaxContainer #whoiamFoto #figura3 {
   height: 75px;
 }
 
-main #whoiam .larguraMaxContainer #whoiamFoto .icon1 {
+main #whoiam .large-container #whoiamFoto .icon1 {
   -webkit-animation: icon-move 3s ease 2.9s infinite alternate;
           animation: icon-move 3s ease 2.9s infinite alternate;
 }
 
-main #whoiam .larguraMaxContainer #whoiamFoto .icon2 {
+main #whoiam .large-container #whoiamFoto .icon2 {
   -webkit-animation: icon-move 3s ease 1.9s infinite alternate;
           animation: icon-move 3s ease 1.9s infinite alternate;
 }
 
-main #whoiam .larguraMaxContainer #whoiamFoto .icon3 {
+main #whoiam .large-container #whoiamFoto .icon3 {
   -webkit-animation: icon-move 3s ease 0.6s infinite alternate;
           animation: icon-move 3s ease 0.6s infinite alternate;
 }
@@ -612,23 +612,23 @@ main #whoiam .larguraMaxContainer #whoiamFoto .icon3 {
   }
 }
 
-main #whoiam .larguraMaxContainer #whoiamFoto img {
+main #whoiam .large-container #whoiamFoto img {
   width: 100%;
   max-width: 400px;
 }
 
 @media screen and (max-width: 1100px) {
-  main #whoiam .larguraMaxContainer #whoiamFoto {
+  main #whoiam .large-container #whoiamFoto {
     display: none;
   }
 }
 
-main #whoiam .larguraMaxContainer #whoiamTexto {
+main #whoiam .large-container #whoiamTexto {
   width: 50%;
 }
 
 @media screen and (max-width: 1100px) {
-  main #whoiam .larguraMaxContainer #whoiamTexto {
+  main #whoiam .large-container #whoiamTexto {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -641,26 +641,26 @@ main #whoiam .larguraMaxContainer #whoiamTexto {
   }
 }
 
-main #whoiam .larguraMaxContainer #whoiamTexto h2 {
+main #whoiam .large-container #whoiamTexto h2 {
   padding-bottom: 20px;
   color: #fefbfb;
   font-size: 3.2rem;
   font-weight: 500;
 }
 
-main #whoiam .larguraMaxContainer #whoiamTexto h2 span {
+main #whoiam .large-container #whoiamTexto h2 span {
   color: #6610f2;
   font-size: 6rem;
 }
 
-main #whoiam .larguraMaxContainer #whoiamTexto p {
+main #whoiam .large-container #whoiamTexto p {
   line-height: 3.2rem;
   color: #c9c9c9;
   font-family: "Circular Std Book";
   font-size: 1.8rem;
 }
 
-main #whoiam .larguraMaxContainer #whoiamTexto p:nth-child(2) {
+main #whoiam .large-container #whoiamTexto p:nth-child(2) {
   padding-bottom: 20px;
 }
 
@@ -676,19 +676,19 @@ main #project {
   }
 }
 
-main #project .larguraMaxContainer h2 {
+main #project .large-container h2 {
   padding-bottom: 20px;
   color: #fefbfb;
   font-size: 3.2rem;
   font-weight: 500;
 }
 
-main #project .larguraMaxContainer h2 span {
+main #project .large-container h2 span {
   color: #6610f2;
   font-size: 6rem;
 }
 
-main #project .larguraMaxContainer div {
+main #project .large-container div {
   margin: 25px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -701,7 +701,7 @@ main #project .larguraMaxContainer div {
   text-align: left;
 }
 
-main #project .larguraMaxContainer div > article {
+main #project .large-container div > article {
   height: auto;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -715,7 +715,7 @@ main #project .larguraMaxContainer div > article {
   border: 2px solid #17161d;
 }
 
-main #project .larguraMaxContainer div > article:hover {
+main #project .large-container div > article:hover {
   border-radius: 5px;
   border: 2px solid #17161d;
   -o-border-image: linear-gradient(225deg, #6610f2 0%, #17161d 100%) 1;
@@ -723,31 +723,31 @@ main #project .larguraMaxContainer div > article:hover {
 }
 
 @media screen and (max-width: 1124px) {
-  main #project .larguraMaxContainer div > article {
+  main #project .large-container div > article {
     -ms-flex-preferred-size: calc(50% - 20px);
         flex-basis: calc(50% - 20px);
   }
 }
 
 @media screen and (max-width: 768px) {
-  main #project .larguraMaxContainer div > article {
+  main #project .large-container div > article {
     -ms-flex-preferred-size: calc(100% - 20px);
         flex-basis: calc(100% - 20px);
   }
 }
 
-main #project .larguraMaxContainer div > article img {
+main #project .large-container div > article img {
   margin: 20px 0;
   border-radius: 5px;
 }
 
-main #project .larguraMaxContainer div > article h3 {
+main #project .large-container div > article h3 {
   font-size: 2.4rem;
   color: #fefbfb;
   font-weight: 500;
 }
 
-main #project .larguraMaxContainer div > article p {
+main #project .large-container div > article p {
   line-height: 28px;
   margin-top: 20px;
   color: #c9c9c9;
@@ -755,7 +755,7 @@ main #project .larguraMaxContainer div > article p {
   font-size: 1.6rem;
 }
 
-main #project .larguraMaxContainer div > article > span {
+main #project .large-container div > article > span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -770,17 +770,17 @@ main #project .larguraMaxContainer div > article > span {
   width: 100%;
 }
 
-main #project .larguraMaxContainer div > article > span a {
+main #project .large-container div > article > span a {
   width: 50%;
 }
 
 @media screen and (max-width: 1024px) {
-  main #project .larguraMaxContainer div > article > span a {
+  main #project .large-container div > article > span a {
     width: 100%;
   }
 }
 
-main #project .larguraMaxContainer div > article > span button {
+main #project .large-container div > article > span button {
   background-color: #6610f2;
   padding: 10px 25px;
   color: #fefbfb;
@@ -798,7 +798,7 @@ main #project .larguraMaxContainer div > article > span button {
 }
 
 @media screen and (max-width: 1024px) {
-  main #project .larguraMaxContainer div > article > span button {
+  main #project .large-container div > article > span button {
     width: 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -806,16 +806,16 @@ main #project .larguraMaxContainer div > article > span button {
   }
 }
 
-main #project .larguraMaxContainer div > article > span button:hover {
+main #project .large-container div > article > span button:hover {
   cursor: pointer;
   background-color: #5429cf;
 }
 
-main #project .larguraMaxContainer div > article > span button .iconify {
+main #project .large-container div > article > span button .iconify {
   font-size: 20px;
 }
 
-main #project .larguraMaxContainer div > article .linguagensProjeto {
+main #project .large-container div > article .linguagensProjeto {
   margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -832,7 +832,7 @@ main #project .larguraMaxContainer div > article .linguagensProjeto {
   height: auto;
 }
 
-main #project .larguraMaxContainer div > article .linguagensProjeto span {
+main #project .large-container div > article .linguagensProjeto span {
   padding: 5px;
   background-color: #131219;
   border-radius: 5px;
@@ -840,13 +840,13 @@ main #project .larguraMaxContainer div > article .linguagensProjeto span {
   margin-bottom: 5px;
 }
 
-main #project .larguraMaxContainer a {
+main #project .large-container a {
   color: #6610f2;
   font-size: 18px;
   position: relative;
 }
 
-main #project .larguraMaxContainer a::after {
+main #project .large-container a::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -865,7 +865,7 @@ main #project .larguraMaxContainer a::after {
   transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1), -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
-main #project .larguraMaxContainer a:hover::after {
+main #project .large-container a:hover::after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
   -webkit-transform-origin: bottom left;
@@ -884,19 +884,19 @@ main #services {
   }
 }
 
-main #services .larguraMaxContainer h2 {
+main #services .large-container h2 {
   padding-bottom: 20px;
   color: #fefbfb;
   font-size: 3.2rem;
   font-weight: 500;
 }
 
-main #services .larguraMaxContainer h2 span {
+main #services .large-container h2 span {
   color: #6610f2;
   font-size: 6rem;
 }
 
-main #services .larguraMaxContainer div {
+main #services .large-container div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -906,7 +906,7 @@ main #services .larguraMaxContainer div {
   margin: 25px 0px;
 }
 
-main #services .larguraMaxContainer div article {
+main #services .large-container div article {
   text-align: center;
   height: auto;
   background-color: #131219;
@@ -921,45 +921,45 @@ main #services .larguraMaxContainer div article {
   border: 2px solid #17161d;
 }
 
-main #services .larguraMaxContainer div article:hover {
+main #services .large-container div article:hover {
   border: 2px solid #17161d;
   -o-border-image: linear-gradient(225deg, #6610f2 0%, #17161d 100%) 1;
      border-image: linear-gradient(225deg, #6610f2 0%, #17161d 100%) 1;
 }
 
-main #services .larguraMaxContainer div article .image-services {
+main #services .large-container div article .image-services {
   width: 100px;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1124px) {
-  main #services .larguraMaxContainer div article {
+  main #services .large-container div article {
     -ms-flex-preferred-size: calc(50% - 20px);
         flex-basis: calc(50% - 20px);
   }
 }
 
 @media screen and (max-width: 768px) {
-  main #services .larguraMaxContainer div article {
+  main #services .large-container div article {
     -ms-flex-preferred-size: calc(100% - 20px);
         flex-basis: calc(100% - 20px);
   }
 }
 
-main #services .larguraMaxContainer div article .iconify {
+main #services .large-container div article .iconify {
   color: #6610f2;
   font-size: 50px;
   margin: 10px 0px;
 }
 
-main #services .larguraMaxContainer div article h3 {
+main #services .large-container div article h3 {
   font-size: 1.8rem;
   padding: 20px 0px;
   color: #fefbfb;
   font-weight: 500;
 }
 
-main #services .larguraMaxContainer div article p {
+main #services .large-container div article p {
   line-height: 28px;
   color: #c9c9c9;
   font-family: "Circular Std Book";
@@ -977,7 +977,7 @@ main #knowledge {
   }
 }
 
-main #knowledge .larguraMaxContainer > div {
+main #knowledge .large-container > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -989,25 +989,25 @@ main #knowledge .larguraMaxContainer > div {
       flex-wrap: wrap;
 }
 
-main #knowledge .larguraMaxContainer > div div,
-main #knowledge .larguraMaxContainer > div article {
+main #knowledge .large-container > div div,
+main #knowledge .large-container > div article {
   width: 50%;
 }
 
 @media screen and (max-width: 1124px) {
-  main #knowledge .larguraMaxContainer > div div,
-  main #knowledge .larguraMaxContainer > div article {
+  main #knowledge .large-container > div div,
+  main #knowledge .large-container > div article {
     width: 100%;
   }
 }
 
-main #knowledge .larguraMaxContainer > div div h2 span,
-main #knowledge .larguraMaxContainer > div article h2 span {
+main #knowledge .large-container > div div h2 span,
+main #knowledge .large-container > div article h2 span {
   color: #6610f2;
   font-size: 6rem;
 }
 
-main #knowledge .larguraMaxContainer > div #cards-knowledge {
+main #knowledge .large-container > div #cards-knowledge {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1017,23 +1017,23 @@ main #knowledge .larguraMaxContainer > div #cards-knowledge {
 }
 
 @media screen and (max-width: 1124px) {
-  main #knowledge .larguraMaxContainer > div #cards-knowledge {
+  main #knowledge .large-container > div #cards-knowledge {
     margin-top: 50px;
   }
 }
 
-main #knowledge .larguraMaxContainer > div #cards-knowledge article:hover .cards-nomes,
-main #knowledge .larguraMaxContainer > div #cards-knowledge article:hover .cards-nomes-baixo {
+main #knowledge .large-container > div #cards-knowledge article:hover .cards-nomes,
+main #knowledge .large-container > div #cards-knowledge article:hover .cards-name-below {
   display: block;
   text-align: center;
 }
 
-main #knowledge .larguraMaxContainer > div #cards-knowledge article:hover {
+main #knowledge .large-container > div #cards-knowledge article:hover {
   border: 2px solid #17161d;
 }
 
-main #knowledge .larguraMaxContainer > div #cards-knowledge article:before,
-main #knowledge .larguraMaxContainer > div #cards-knowledge article:after {
+main #knowledge .large-container > div #cards-knowledge article:before,
+main #knowledge .large-container > div #cards-knowledge article:after {
   content: "";
   position: absolute;
   border: 2px solid transparent;
@@ -1043,17 +1043,17 @@ main #knowledge .larguraMaxContainer > div #cards-knowledge article:after {
   right: 0px;
 }
 
-main #knowledge .larguraMaxContainer > div #cards-knowledge article:hover {
+main #knowledge .large-container > div #cards-knowledge article:hover {
   -webkit-animation: buttonColorChange 1s ease-out forwards;
           animation: buttonColorChange 1s ease-out forwards;
 }
 
-main #knowledge .larguraMaxContainer > div #cards-knowledge article:hover:before {
+main #knowledge .large-container > div #cards-knowledge article:hover:before {
   -webkit-animation: buttonBeforeColorChange 1s ease-out forwards;
           animation: buttonBeforeColorChange 1s ease-out forwards;
 }
 
-main #knowledge .larguraMaxContainer > div #cards-knowledge article:hover:after {
+main #knowledge .large-container > div #cards-knowledge article:hover:after {
   -webkit-animation: buttonAfterColorChange 1s ease-out forwards;
           animation: buttonAfterColorChange 1s ease-out forwards;
 }
@@ -1126,7 +1126,7 @@ main #knowledge .larguraMaxContainer > div #cards-knowledge article:hover:after 
   }
 }
 
-main #knowledge .larguraMaxContainer > div #cards-knowledge article {
+main #knowledge .large-container > div #cards-knowledge article {
   width: 20%;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -1147,13 +1147,13 @@ main #knowledge .larguraMaxContainer > div #cards-knowledge article {
 }
 
 @media screen and (max-width: 768px) {
-  main #knowledge .larguraMaxContainer > div #cards-knowledge article {
+  main #knowledge .large-container > div #cards-knowledge article {
     width: 40%;
     margin: 20px 0px;
   }
 }
 
-main #knowledge .larguraMaxContainer > div #cards-knowledge article .cards-nomes {
+main #knowledge .large-container > div #cards-knowledge article .cards-nomes {
   position: absolute;
   top: -50px;
   left: 50%;
@@ -1178,7 +1178,7 @@ main #knowledge .larguraMaxContainer > div #cards-knowledge article .cards-nomes
   font-size: 1.8rem;
 }
 
-main #knowledge .larguraMaxContainer > div #cards-knowledge article .cards-nomes-baixo {
+main #knowledge .large-container > div #cards-knowledge article .cards-name-below {
   position: absolute;
   bottom: -50px;
   left: 50%;
@@ -1203,26 +1203,26 @@ main #knowledge .larguraMaxContainer > div #cards-knowledge article .cards-nomes
   font-size: 1.8rem;
 }
 
-main #knowledge .larguraMaxContainer > div #cards-knowledge article .aumento-hover {
+main #knowledge .large-container > div #cards-knowledge article .aumento-hover {
   bottom: -75px;
 }
 
-main #knowledge .larguraMaxContainer > div #cards-knowledge article .icon-knowledge {
+main #knowledge .large-container > div #cards-knowledge article .icon-knowledge {
   width: 60px;
 }
 
-main #knowledge .larguraMaxContainer > div #texto-knowledge {
+main #knowledge .large-container > div #text-knowledge {
   height: 300px;
 }
 
-main #knowledge .larguraMaxContainer > div #texto-knowledge h2 {
+main #knowledge .large-container > div #text-knowledge h2 {
   margin-bottom: 30px;
   color: #fefbfb;
   font-size: 3.2rem;
   font-weight: 500;
 }
 
-main #knowledge .larguraMaxContainer > div #texto-knowledge p {
+main #knowledge .large-container > div #text-knowledge p {
   max-width: 500px;
   line-height: 32px;
   color: #c9c9c9;

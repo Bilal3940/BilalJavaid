@@ -75,7 +75,7 @@ sr.reveal(".descricao-delay", { delay: 400 });
 sr.reveal(".cards-interval", { interval: 400 });
 
 //Animação conhecimentos
-var texto1 = document.querySelector(".mudarTextoDescricao");
+var texto1 = document.querySelector(".description");
 
 document.querySelector(".html").addEventListener("mouseover", function () {
   texto1.innerHTML =
@@ -92,26 +92,29 @@ document.querySelector(".js").addEventListener("mouseover", function () {
     "JavaScript is a structured interpreted programming language, high-level script with weak and multiparadigm dynamic typing.";
 });
 
-document.querySelector(".tailwind").addEventListener("mouseover", function () {
+document.querySelector(".laravel").addEventListener("mouseover", function () {
   texto1.innerHTML =
-    "MATLAB is a programming platform designed specifically for engineers and scientists to analyze and design systems and products that transform our world.";
-});
-
-document.querySelector(".sass").addEventListener("mouseover", function () {
-  texto1.innerHTML =
-    "React is an open source JavaScript library focused on creating user interfaces on web pages.";
+    "Laravel is a powerful and popular PHP web application framework that I am highly proficient in as a full-stack developer. With its elegant syntax, rich set of features, and robust ecosystem, Laravel allows for efficient and scalable web application development";
 });
 
 document.querySelector(".react").addEventListener("mouseover", function () {
   texto1.innerHTML =
-    "Git is a DevOps tool used for source code management. It is a free and open-source version control system used to handle small to very large projects efficiently. Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development.";
+    "React is an open source JavaScript library focused on creating user interfaces on web pages.";
 });
 
-document.querySelector(".next").addEventListener("mouseover", function () {
+document.querySelector(".mongodb").addEventListener("mouseover", function () {
   texto1.innerHTML =
-    "Canva is a free graphic design platform that's great for making invitations, business cards, Instagram posts, and more. A drag and drop interface makes customizing thousands of templates simple and easy.";
+    "MongoDB is a popular NoSQL database that I am proficient in working with as a full-stack developer. With its flexible document-oriented architecture, MongoDB allows for efficient storage and retrieval of data in a scalable and high-performance manner.";
 });
 
+document.querySelector(".nodejs").addEventListener("mouseover", function () {
+  texto1.innerHTML =
+    "Node.js is a powerful runtime environment built on Chrome's V8 JavaScript engine. As a full-stack      developer,   I possess a strong command of Node.js and its ecosystem. With my expertise, I can efficiently build server-side applications, develop RESTful APIs, and handle data persistence using this versatile runtime environment.";
+});
+document.querySelector(".express").addEventListener("mouseover", function () {
+  texto1.innerHTML =
+    "Express.js is a lightweight and flexible web application framework for Node.js that I am highly proficient in as a full-stack developer. With its minimalist design and powerful features, Express.js allows for the rapid development of robust and scalable web applications.";
+});
 document
   .querySelector(".styled")
   .addEventListener("mouseover", function mudarTexto8() {
