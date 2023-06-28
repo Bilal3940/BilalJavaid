@@ -52,8 +52,8 @@ function typeWrite(elemento) {
     }, 100 * i);
   });
 }
-const titulo = document.querySelector(".maquina-escrever");
-typeWrite(titulo);
+const title = document.querySelector(".font-animation");
+typeWrite(title);
 
 //Revelar animação
 const sr = ScrollReveal({
@@ -64,68 +64,68 @@ const sr = ScrollReveal({
 
 //Home delay
 sr.reveal(".button", { delay: 200 });
-sr.reveal(".linguagensProjeto", { delay: 400 });
-sr.reveal(".imagem-espaco-delay", { delay: 200 });
-sr.reveal(".imagem-iuri-delay", { delay: 600 });
+sr.reveal(".languagesProject", { delay: 400 });
+sr.reveal(".front-photo-delay", { delay: 200 });
+sr.reveal(".image-right-delay", { delay: 600 });
 sr.reveal(".scroll-delay", { delay: 1000 });
 //Sobre mim delay
-sr.reveal(".imagem-delay", {});
-sr.reveal(".titulo-delay", { delay: 200 });
-sr.reveal(".descricao-delay", { delay: 400 });
+sr.reveal(".images-delay", {});
+sr.reveal(".title-delay", { delay: 200 });
+sr.reveal(".desc-delay", { delay: 400 });
 sr.reveal(".cards-interval", { interval: 400 });
 
 //Animação conhecimentos
-var texto1 = document.querySelector(".description");
+var text1 = document.querySelector(".description");
 
 document.querySelector(".html").addEventListener("mouseover", function () {
-  texto1.innerHTML =
+  text1.innerHTML =
     "HTML is a marking-based language, where we mark the elements to define which information the page will display.";
 });
 
 document.querySelector(".css").addEventListener("mouseover", function () {
-  texto1.innerHTML =
+  text1.innerHTML =
     "CSS is a style sheet language composed of layers, created with the purpose of stylizing HTML pages.";
 });
 
 document.querySelector(".js").addEventListener("mouseover", function () {
-  texto1.innerHTML =
+  text1.innerHTML =
     "JavaScript is a structured interpreted programming language, high-level script with weak and multiparadigm dynamic typing.";
 });
 
 document.querySelector(".laravel").addEventListener("mouseover", function () {
-  texto1.innerHTML =
+  text1.innerHTML =
     "Laravel is a powerful and popular PHP web application framework that I am highly proficient in as a full-stack developer. With its elegant syntax, rich set of features, and robust ecosystem, Laravel allows for efficient and scalable web application development";
 });
 
 document.querySelector(".react").addEventListener("mouseover", function () {
-  texto1.innerHTML =
+  text1.innerHTML =
     "React is an open source JavaScript library focused on creating user interfaces on web pages.";
 });
 
 document.querySelector(".mongodb").addEventListener("mouseover", function () {
-  texto1.innerHTML =
+  text1.innerHTML =
     "MongoDB is a popular NoSQL database that I am proficient in working with as a full-stack developer. With its flexible document-oriented architecture, MongoDB allows for efficient storage and retrieval of data in a scalable and high-performance manner.";
 });
 
 document.querySelector(".nodejs").addEventListener("mouseover", function () {
-  texto1.innerHTML =
+  text1.innerHTML =
     "Node.js is a powerful runtime environment built on Chrome's V8 JavaScript engine. As a full-stack      developer,   I possess a strong command of Node.js and its ecosystem. With my expertise, I can efficiently build server-side applications, develop RESTful APIs, and handle data persistence using this versatile runtime environment.";
 });
 document.querySelector(".express").addEventListener("mouseover", function () {
-  texto1.innerHTML =
+  text1.innerHTML =
     "Express.js is a lightweight and flexible web application framework for Node.js that I am highly proficient in as a full-stack developer. With its minimalist design and powerful features, Express.js allows for the rapid development of robust and scalable web applications.";
 });
 document
   .querySelector(".styled")
   .addEventListener("mouseover", function mudarTexto8() {
-    texto1.innerHTML =
+    text1.innerHTML =
       "Microsoft Office is a set of computer applications mainly used for business or office purposes.MS Office helps simplify basic office tasks and improve work productivity.";
   });
 
-var sairCaixa = document.getElementsByClassName("sairCaixa");
+var exitBox = document.getElementsByClassName("exitBox");
 
-for (i = 0; i < sairCaixa.length; i++) {
-  sairCaixa[i].addEventListener("mouseout", function mudarTextoNormal() {
-    texto1.innerHTML = `*Hover the card to Read*`;
+for (i = 0; i < exitBox.length; i++) {
+  exitBox[i].addEventListener("mouseout", function mudarTextoNormal() {
+    text1.innerHTML = `*Hover the card to Read*`;
   });
 }

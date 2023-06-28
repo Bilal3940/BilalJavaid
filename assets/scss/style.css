@@ -280,7 +280,7 @@ header .large-container nav .nav-list li a:hover {
   }
 }
 
-.maquina-escrever:after {
+.font-animation:after {
   content: "|";
   margin-left: 5px;
   opacity: 1;
@@ -338,7 +338,7 @@ main #top-text .large-container {
   padding: 0px 50px;
 }
 
-main #top-text .large-container #apresentacaoTexto {
+main #top-text .large-container #font-text {
   width: 60%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -347,7 +347,7 @@ main #top-text .large-container #apresentacaoTexto {
 }
 
 @media screen and (max-width: 1024px) {
-  main #top-text .large-container #apresentacaoTexto {
+  main #top-text .large-container #font-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -364,22 +364,22 @@ main #top-text .large-container #apresentacaoTexto {
   }
 }
 
-main #top-text .large-container #apresentacaoTexto h2 {
+main #top-text .large-container #font-text h2 {
   color: #fefbfb;
   font-size: 2.4rem;
   font-weight: 500;
   font-family: "Circular Std Book";
 }
 
-main #top-text .large-container #apresentacaoTexto h2 #nome {
+main #top-text .large-container #font-text h2 #nome {
   font-size: 5.4rem;
 }
 
-main #top-text .large-container #apresentacaoTexto h2 .maquina-escrever {
+main #top-text .large-container #font-text h2 .font-animation {
   font-family: "Circular Std Book";
 }
 
-main #top-text .large-container #apresentacaoTexto a {
+main #top-text .large-container #font-text a {
   background: linear-gradient(225deg, rgba(102, 16, 242, 0.3) 0%, rgba(102, 16, 242, 0) 100%);
   color: #fefbfb;
   -webkit-backdrop-filter: blur(10px);
@@ -405,25 +405,25 @@ main #top-text .large-container #apresentacaoTexto a {
   font-family: "Circular Std Book";
 }
 
-main #top-text .large-container #apresentacaoTexto a:hover {
+main #top-text .large-container #font-text a:hover {
   padding: 15px 45px;
   cursor: pointer;
   max-width: 280px;
   background: linear-gradient(225deg, rgba(102, 16, 242, 0.6) 0%, rgba(102, 16, 242, 0) 100%);
 }
 
-main #top-text .large-container #apresentacaoFoto {
+main #top-text .large-container #front-photo {
   width: 40%;
   height: 100vh;
 }
 
 @media screen and (max-width: 1024px) {
-  main #top-text .large-container #apresentacaoFoto {
+  main #top-text .large-container #front-photo {
     display: none;
   }
 }
 
-main #top-text .large-container #apresentacaoFoto #fundo {
+main #top-text .large-container #front-photo #f-pic {
   width: 100%;
   max-width: 600px;
   position: absolute;
@@ -432,12 +432,12 @@ main #top-text .large-container #apresentacaoFoto #fundo {
 }
 
 @media screen and (max-width: 1024px) {
-  main #top-text .large-container #apresentacaoFoto #fundo {
+  main #top-text .large-container #front-photo #f-pic {
     display: none;
   }
 }
 
-main #top-text .large-container #apresentacaoFoto .object {
+main #top-text .large-container #front-photo .object {
   -webkit-animation: MoveUpDown 2s linear infinite;
           animation: MoveUpDown 2s linear infinite;
   position: absolute;
@@ -503,7 +503,7 @@ main #whoiam .large-container #whoiamMim {
           justify-content: space-between;
 }
 
-main #whoiam .large-container #whoiamFoto {
+main #whoiam .large-container #whoiampic {
   width: 50%;
   padding-right: 100px;
   display: -webkit-box;
@@ -520,16 +520,16 @@ main #whoiam .large-container #whoiamFoto {
   transition: 1s all ease;
 }
 
-main #whoiam .large-container #whoiamFoto #iuricode {
+main #whoiam .large-container #whoiampic #iuricode {
   width: 400px;
 }
 
-main #whoiam .large-container #whoiamFoto:hover {
+main #whoiam .large-container #whoiampic:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-main #whoiam .large-container #whoiamFoto div {
+main #whoiam .large-container #whoiampic div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -541,11 +541,11 @@ main #whoiam .large-container #whoiamFoto div {
           justify-content: center;
 }
 
-main #whoiam .large-container #whoiamFoto div img {
+main #whoiam .large-container #whoiampic div img {
   width: 45px;
 }
 
-main #whoiam .large-container #whoiamFoto #figura1 {
+main #whoiam .large-container #whoiampic #figure1 {
   position: absolute;
   top: 40px;
   right: 430px;
@@ -555,7 +555,7 @@ main #whoiam .large-container #whoiamFoto #figura1 {
   height: 75px;
 }
 
-main #whoiam .large-container #whoiamFoto #figura2 {
+main #whoiam .large-container #whoiampic #figure2 {
   position: absolute;
   top: 100px;
   right: 150px;
@@ -565,7 +565,7 @@ main #whoiam .large-container #whoiamFoto #figura2 {
   height: 75px;
 }
 
-main #whoiam .large-container #whoiamFoto #figura3 {
+main #whoiam .large-container #whoiampic #figure3 {
   position: absolute;
   top: 250px;
   right: 450px;
@@ -575,17 +575,17 @@ main #whoiam .large-container #whoiamFoto #figura3 {
   height: 75px;
 }
 
-main #whoiam .large-container #whoiamFoto .icon1 {
+main #whoiam .large-container #whoiampic .icon1 {
   -webkit-animation: icon-move 3s ease 2.9s infinite alternate;
           animation: icon-move 3s ease 2.9s infinite alternate;
 }
 
-main #whoiam .large-container #whoiamFoto .icon2 {
+main #whoiam .large-container #whoiampic .icon2 {
   -webkit-animation: icon-move 3s ease 1.9s infinite alternate;
           animation: icon-move 3s ease 1.9s infinite alternate;
 }
 
-main #whoiam .large-container #whoiamFoto .icon3 {
+main #whoiam .large-container #whoiampic .icon3 {
   -webkit-animation: icon-move 3s ease 0.6s infinite alternate;
           animation: icon-move 3s ease 0.6s infinite alternate;
 }
@@ -612,23 +612,23 @@ main #whoiam .large-container #whoiamFoto .icon3 {
   }
 }
 
-main #whoiam .large-container #whoiamFoto img {
+main #whoiam .large-container #whoiampic img {
   width: 100%;
   max-width: 400px;
 }
 
 @media screen and (max-width: 1100px) {
-  main #whoiam .large-container #whoiamFoto {
+  main #whoiam .large-container #whoiampic {
     display: none;
   }
 }
 
-main #whoiam .large-container #whoiamTexto {
+main #whoiam .large-container #whoiamText {
   width: 50%;
 }
 
 @media screen and (max-width: 1100px) {
-  main #whoiam .large-container #whoiamTexto {
+  main #whoiam .large-container #whoiamText {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -641,26 +641,26 @@ main #whoiam .large-container #whoiamTexto {
   }
 }
 
-main #whoiam .large-container #whoiamTexto h2 {
+main #whoiam .large-container #whoiamText h2 {
   padding-bottom: 20px;
   color: #fefbfb;
   font-size: 3.2rem;
   font-weight: 500;
 }
 
-main #whoiam .large-container #whoiamTexto h2 span {
+main #whoiam .large-container #whoiamText h2 span {
   color: #6610f2;
   font-size: 6rem;
 }
 
-main #whoiam .large-container #whoiamTexto p {
+main #whoiam .large-container #whoiamText p {
   line-height: 3.2rem;
   color: #c9c9c9;
   font-family: "Circular Std Book";
   font-size: 1.8rem;
 }
 
-main #whoiam .large-container #whoiamTexto p:nth-child(2) {
+main #whoiam .large-container #whoiamText p:nth-child(2) {
   padding-bottom: 20px;
 }
 
@@ -815,7 +815,7 @@ main #project .large-container div > article > span button .iconify {
   font-size: 20px;
 }
 
-main #project .large-container div > article .linguagensProjeto {
+main #project .large-container div > article .languagesProject {
   margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -832,7 +832,7 @@ main #project .large-container div > article .linguagensProjeto {
   height: auto;
 }
 
-main #project .large-container div > article .linguagensProjeto span {
+main #project .large-container div > article .languagesProject span {
   padding: 5px;
   background-color: #131219;
   border-radius: 5px;
